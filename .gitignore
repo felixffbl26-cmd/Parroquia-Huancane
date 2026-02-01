@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de Excel temporales
+~$*.xlsx
+~$*.xls
+
+# Logs
+*.log
+
+# Archivos de informes generados (opcional - descomenta si no quieres subirlos)
+# informes/*.html
+# informes/*.docx
+
+# Datos de prueba (opcional - descomenta si tienes datos sensibles)
+# datos/*.xlsx
+# datos/*.xls
+
+# Archivos bat específicos de Windows (opcional)
+# *.bat
+
+# Caché de Streamlit
+.streamlit/cache/
